@@ -130,6 +130,7 @@ This is a joint project between the following groups:
 <button id="hidemenu">Hide Resource Menu</button>
 <button id="showmenu">Show Resource Menu</button>
 <button class="btn-mid" type="submit" form="menu" formaction="http://www.on-line-interactivity.com/WebIDE/index.php">LOGIN To WebIDE</button>
+<button class="btn-mid" type="submit" form="menu" formaction="http://waptug.github.io/on-line-interactivity/">View On GitHub</button>
 </div>
 </div>
 
