@@ -8,9 +8,9 @@
 	<meta name="keywords" content="CODIAD,HTML,HTML5,CSS,CSS3,XML,JavaScript,PHP,Michael Scott McGinn,WapTug,Web Applications Programming Technology Users Group,On-Line-Interactivity.Com,GeekZoneBooks.Com,WapTug.Org">
 	<meta name="author" content="Michael Scott McGinn, CODIAD Team,You">
 	<meta name="wot-verification" content="4e7ffa043aa6b183b0aa"/>
-    <link rel="stylesheet" href="WebIDE/themes/default/reset.css">
-    <link rel="stylesheet" href="WebIDE/themes/default/fonts.css">
-    <link rel="stylesheet" href="WebIDE/themes/default/screen.css">
+    <link rel="stylesheet" href="../../../WebIDE/themes/default/reset.css">
+    <link rel="stylesheet" href="../../../WebIDE/themes/default/fonts.css">
+    <link rel="stylesheet" href="../../../WebIDE/themes/default/screen.css">
     <style type="text/css">
         html { overflow: scroll; }
         body { width: 100%; margin: 0 auto; overflow: scroll; }
@@ -104,7 +104,7 @@ $("#hidemenu").hide();
   })();
 </script>
 <!-- End Social Buttons -->
- <img src="logo.png">
+ <img src="../../../logo.png">
  <textarea id="about" rows="5" readonly>
 About Us
 
