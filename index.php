@@ -17,9 +17,11 @@
         td .icon { font-size: 30px; display: inline; padding-top: 0; margin-top: 0; }
         p { padding: 15px 0; margin: 0; font-weight: bold; }
         label { margin-top: 25px; }
-        #container { width: 600px; margin: 50px auto; }
-        #logo {width:600px; margin:50px auto;}
+        #container { width: 80%; margin: 50px auto; }
+        #logo {width:80%; margin:50px auto;}
         .item-icon { float: right; }
+        .twitterfeed {position: absolute; left:750px;top:350px;width:300px}
+        .facebookcomment {position: absolute; left:1080px;top:350px;width:300px}
     </style>
 	<!-- Google Analytics -->
 	<script>
@@ -99,6 +101,7 @@ This is a joint project between the following groups:
  WapTug.Org  - Web Applications Programming Technology Users Group
  JoomlaForGeeks.Com - Joomla Users Group of Bothell
  GeekZoneBooks.Com - Web Hosting Services (Sponsor who is paying for the vps hosting space)
+ MichaelScottMcGinn.Com - Web Developer that created this project.
  </textarea>
 <div id="legallinks"><a href="http://www.waptug.org">About Us</a>|<a href="http://www.waptug.org/index.php?option=com_content&view=article&id=7">Terms of Service</a>|<a href="../index.html">Stats</a>|<a href="http://on-line-interactivity.com/WapTugU/moodle">WapTug U</a>|<a href="http://waptug.eduongo.com/v2/">WapTug U Academy</a>|<a href="http://bit.ly/GeekChatRoom">Support Chat</a>|<a href="http://www.on-line-interactivity.com/WebIDE/workspace/nodejsircchat/nodejsircchat.html">IRC Links</a>
 </div>
@@ -112,8 +115,17 @@ This is a joint project between the following groups:
 
 
 </div>
-
+	
+<div>
 <iframe width="560" height="315" src="//www.youtube.com/embed/dU1xS07N-FA" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="twitterfeed">
+<a class="twitter-timeline" href="https://twitter.com/waptug" data-widget-id="340150170375294977">Tweets by @waptug</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+<div class="facebookcomment">
+	<div class="fb-comments" data-href="http://on-line-interactivity.com" data-width="300" data-numposts="10" data-colorscheme="dark"></div>
+</div>
 </div>
 
     <div id="container">
@@ -124,7 +136,7 @@ This is a joint project between the following groups:
 	<p style="font-size:10pt;">Web Application Programming Technology Training Resources</p>
 	<button class="btn-left" type="submit" form="menu" formaction="http://code.org/">Code.Org</button><button class="btn-mid" type="submit" form="menu" formaction="http://codility.com/">Codility.Com</button><button class="btn-mid" type="submit" form="menu" formaction="http://csedweek.org">Computer Science Education Week</button><button class="btn-mid" type="submit" form="menu" formaction="http://www.w3schools.com">W3 Schools</button><button class="btn-mid" type="submit" form="menu" formaction="http://www.compileonline.com">CompileOnline</button><button class="btn-mid" type="submit" form="menu" formaction="http://www.netlit101.com">Net Lit 101</button><button class="btn-mid" type="submit" form="menu" formaction="http://www.codechef.com/school">CodeChef</button><button class="btn-right" type="submit" form="menu" formaction="https://www.khanacademy.org/">Khan Academy</button>
 	<p style="font-size:10pt;">Web Application Programming Tools</p>
-	<button class="btn-left" type="submit" form="menu" formaction="http://www.jsfiddle.net">jsFiddle</button><button class="btn-mid" type="submit" form="menu" formaction="http://sta.sh/muro/">Draw On-Line</button><button class="btn-mid" type="submit" form="menu" formaction="http://www.picmonkey.com">Edit Photos Online</button><button class="btn-mid" type="submit" form="menu" formaction="http://www.phpclasses.org">PHP Classes</button><button class="btn-mid" type="submit" form="menu" formaction="http://doublesvsoop.sourceforge.net/">PWCT-Make Windows Applications</button><button class="btn-right" type="submit" form="menu" formaction="http://www.jsclasses.org">JavaScript Classes</button>
+	<button class="btn-left" type="submit" form="menu" formaction="http://www.jsfiddle.net">jsFiddle</button><button class="btn-mid" type="submit" form="menu" formaction="https://codenvy.com">CodEnvy WebIDE</button><button class="btn-mid" type="submit" form="menu" formaction="https://shiftedit.net">ShiftEdit WebIDE</button><button class="btn-mid" type="submit" form="menu" formaction="https://c9.io">Cloud9 WebIDE</button><button class="btn-mid" type="submit" form="menu" formaction="http://pixlr.com/">On-Line Image Editor</button><button class="btn-mid" type="submit" form="menu" formaction="http://sta.sh/muro/">Draw On-Line</button><button class="btn-mid" type="submit" form="menu" formaction="http://www.picmonkey.com">Edit Photos Online</button><button class="btn-mid" type="submit" form="menu" formaction="http://www.phpclasses.org">PHP Classes</button><button class="btn-mid" type="submit" form="menu" formaction="http://doublesvsoop.sourceforge.net/">PWCT-Make Windows Applications</button><button class="btn-right" type="submit" form="menu" formaction="http://www.jsclasses.org">JavaScript Classes</button>
 	<p style="font-size:10pt;">Project Partners</p>
 	<button class="btn-left" type="submit" form="menu" formaction="http://bit.ly/EastLakeWebDevGroup">Church</button><button class="btn-mid" type="submit" form="menu" formaction="http://www.waptug.org">Educational</button><button class="btn-mid" type="submit" form="menu" formaction="http://www.joomlaforgeeks.com">Community</button><button class="btn-right" type="submit" form="menu" formaction="http://www.geekzonebooks.com">Industry</button>
 	<p style="font-size:10pt;">Web Site Design Project Ideas</p>
@@ -170,8 +182,14 @@ border="0" alt="Unique Visitors from Sept 26,2013">Visitors</a>
 <!-- HypeStat code -->
 <a href="http://on-line-interactivity.com.hypestat.com" title="Powered by HypeStat.com" target="_blank"><img src="http://www.hypestat.com/widget.php?w=160&h=150&pl=10&pt=20&c1=68C0AF&c2=000000&gd=vertical&f=stan0752&fs=6&fc=dddddd&f2=stan0765&fs2=6&fc2=FFFFFF&bc=404C4F&wt=pgyarw&url=on-line-interactivity.com" alt="" border="0"/></a>
 <!--End HypeStat code -->
+<!-- Live Globe Counter Code Start -->
+<script type="text/javascript" src="http://jj.revolvermaps.com/2/1.js?i=97wfe2soeth&amp;s=220&amp;m=0&amp;v=true&amp;r=false&amp;b=000000&amp;n=false&amp;c=ff0000" async="async"></script>
+<!-- Live Globe Counter Code End -->
 <!-- Copyright (c) 2013 GeekZoneBooks.Com -->
 </br>
+<p>
+<script type="text/javascript" language="javascript" src="http://www.anrdoezrs.net/placeholder-9017339?target=_top&mouseover=N"></script>
+</p>
 <pre>
 The MIT License (MIT)
 
